@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#132d2a">
+  <title>OopBuy spreadsheet | Kategorie, rozmiary i zdjęcia QC</title>
+  <meta name="description" content="Polski przewodnik po OopBuy spreadsheet. Przejdź do 10 kategorii CAFANS, sprawdź linki i rozmiary, oceń zdjęcia QC i oszacuj koszt dostawy do Polski.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:title" content="OopBuy spreadsheet | Kategorie, rozmiary i zdjęcia QC">
+  <meta property="og:description" content="Dziesięć kategorii CAFANS oraz praktyczne wskazówki dotyczące rozmiarów, zdjęć QC i kosztu dostawy do Polski.">
+  <meta property="og:image" content="https://static.nike.com/a/images/c_pad,w_720,h_600,f_webp,q_77/f888b4a3-a02a-420d-93e3-cb33c3bb30ac/AIR%2BFORCE%2B1%2B%2707.png">
+  <meta property="og:image:alt" content="Białe sneakersy Nike Air Force 1 ’07 z profilu">
+  <link rel="icon" href="https://www.cafans.com/favicon.ico">
+  <link rel="preconnect" href="https://static.nike.com">
+  <!-- Kwerenda: Bing zwrócił 0 wyników organicznych dla dokładnej frazy. Zamiast tego przejrzano 10 wyników z innego indeksu: oop-sheets.com, oopbuyhipobuy.org, oopbuying.com, oopbuy.org, ssfinds.com, oopbuysupply.com, opbuysheet.com, oocbuy.com, oopspreadsheet.com i oopbuytab.com. -->
+  <style>
+    :root{color-scheme:light;--paper:#edf2e7;--ink:#132d2a;--soft:#405650;--line:#aebdb2;--lime:#def67c;--white:#f9fbf5}
+    *,*::before,*::after{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    a{color:inherit;text-underline-offset:.2em}
+    :focus-visible{outline:3px solid #08765a;outline-offset:3px}
+    .wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto}
+    .mast{background:var(--ink);color:var(--white)}
+    .mast .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.7rem}
+    .mast a{display:inline-flex;align-items:center;min-height:44px;font-weight:800}
+    .mast a:focus-visible{outline-color:var(--lime)}
+    .wordmark{color:var(--lime);text-decoration:none}
+    .label,.num,figcaption{font-family:ui-monospace,monospace}
+    .label{margin:0;font-size:.75rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .hero{display:grid;grid-template-columns:1.18fr 1fr;gap:1.5rem;align-items:stretch;padding-block:1.4rem}
+    .intro{padding:clamp(1.2rem,4vw,3rem);background:var(--lime)}
+    h1,h2,h3,p,figure{margin-top:0}
+    h1{margin:.4rem 0 1rem;font-size:clamp(2.85rem,7vw,6rem);letter-spacing:-.08em;line-height:.89}
+    h1 span{display:block}
+    h2{margin-bottom:.6rem;font-size:clamp(1.55rem,4vw,2.7rem);letter-spacing:-.045em;line-height:1.1}
+    h3{margin-bottom:.4rem;font-size:1.14rem;line-height:1.25}
+    p{margin-bottom:.9rem}
+    .intro p:not(.label){max-width:47ch}
+    .cta{display:inline-flex;align-items:center;min-height:44px;padding:.5rem .95rem;background:var(--ink);color:var(--white);font-weight:750}
+    .hero figure{display:grid;grid-template-rows:1fr auto;margin:0;background:#dce4d7}
+    .hero img{display:block;width:100%;height:100%;max-height:330px;object-fit:contain}
+    figcaption{padding:.65rem .8rem;font-size:.74rem;line-height:1.4}
+    .section{margin-block:0 2.6rem}
+    .heading{margin-bottom:1rem}
+    .heading p{margin:0;color:var(--soft)}
+    .categories ul{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin:0;padding:0;list-style:none;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .categories li{display:flex;min-width:0;background:var(--white)}
+    .categories a{display:grid;align-content:start;gap:.18rem;width:100%;min-height:88px;padding:.66rem .8rem;text-decoration:none}
+    .categories a:is(:hover,:focus-visible){background:var(--lime);outline-offset:-3px}
+    .categories b{line-height:1.2}
+    .categories small{color:var(--soft);line-height:1.3}
+    .num{font-size:.72rem;color:var(--soft)}
+    .guides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;border:1px solid var(--line);background:var(--line)}
+    .guides article{padding:clamp(1rem,3vw,1.8rem);background:var(--white)}
+    .guides article p:last-child{margin-bottom:0}
+    .strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem}
+    .strip figure{margin:0;background:var(--white)}
+    .strip img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f5f5f1}
+    details{border-top:1px solid var(--line)}
+    details:last-child{border-bottom:1px solid var(--line)}
+    summary{padding:.8rem 0;font-weight:780;cursor:pointer}
+    details p{max-width:72ch;margin:0 0 .9rem}
+    footer{padding:1rem 0;background:var(--ink);color:var(--white)}
+    footer p{max-width:75ch;margin:0}
+    @media(max-width:760px){
+      .hero{grid-template-columns:1fr;gap:.6rem}
+      .hero img{max-height:180px}
+      .categories ul{grid-template-columns:repeat(3,minmax(0,1fr))}
+    }
+    @media(max-width:460px){
+      .categories ul,.strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .guides{grid-template-columns:1fr}
+    }
+  </style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/pfwds/">
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap">
+      <a class="wordmark" href="https://www.cafans.com">CAFANS.COM</a>
+      <a href="https://www.cafans.com">Otwórz katalog</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="label">Przewodnik zakupowy / PL</p>
+        <h1 id="page-title">OopBuy <span>spreadsheet</span></h1>
+        <p>OopBuy spreadsheet to określenie listy linków produktowych, która pomaga porównywać oferty według kategorii. Poniżej znajdziesz kategorie CAFANS oraz wskazówki, jak sprawdzić wariant, wymiary i zdjęcia QC przed zakupem.</p>
+        <a class="cta" href="https://www.cafans.com">Przeglądaj CAFANS</a>
+      </div>
+      <figure>
+        <img src="https://static.nike.com/a/images/c_pad,w_720,h_600,f_webp,q_77/f888b4a3-a02a-420d-93e3-cb33c3bb30ac/AIR%2BFORCE%2B1%2B%2707.png"
+             srcset="https://static.nike.com/a/images/c_pad,w_480,h_400,f_webp,q_77/f888b4a3-a02a-420d-93e3-cb33c3bb30ac/AIR%2BFORCE%2B1%2B%2707.png 480w, https://static.nike.com/a/images/c_pad,w_720,h_600,f_webp,q_77/f888b4a3-a02a-420d-93e3-cb33c3bb30ac/AIR%2BFORCE%2B1%2B%2707.png 720w"
+             sizes="(max-width:760px) calc(100vw - 2rem), 505px" width="720" height="600" loading="eager" fetchpriority="high" alt="Białe sneakersy Nike Air Force 1 ’07 z profilu">
+        <figcaption>01 / Nike Air Force 1 ’07 · zdjęcie poglądowe</figcaption>
+      </figure>
+    </section>
+
+    <nav class="section categories" aria-labelledby="categories-title">
+      <div class="heading">
+        <h2 id="categories-title">10 kategorii CAFANS</h2>
+        <p>Pod każdą kategorią znajdziesz podpowiedź, co porównać w ofertach.</p>
+      </div>
+      <ul>
+        <li><a href="https://cafans.com/category-911-Shoes.html"><span class="num">01</span><b>Buty</b><small>Długość wkładki sneakersów</small></a></li>
+        <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html"><span class="num">02</span><b>Bluzy i swetry</b><small>Wymiary bluzy oversize</small></a></li>
+        <li><a href="https://cafans.com/category-913-T-Shirts.html"><span class="num">03</span><b>T-shirty</b><small>Gramatura bawełnianej koszulki</small></a></li>
+        <li><a href="https://cafans.com/category-914-Jackets.html"><span class="num">04</span><b>Kurtki</b><small>Długość rękawa kurtki</small></a></li>
+        <li><a href="https://cafans.com/category-915-Pants%2FShorts.html"><span class="num">05</span><b>Spodnie i szorty</b><small>Szerokość pasa na płasko</small></a></li>
+        <li><a href="https://cafans.com/category-916-Headwear.html"><span class="num">06</span><b>Nakrycia głowy</b><small>Regulacja obwodu czapki</small></a></li>
+        <li><a href="https://cafans.com/category-917-Sets.html"><span class="num">07</span><b>Komplety</b><small>Osobne rozmiary góry i dołu</small></a></li>
+        <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html"><span class="num">08</span><b>Bielizna</b><small>Rozciągliwość gumy w pasie</small></a></li>
+        <li><a href="https://cafans.com/category-919-Jersey.html"><span class="num">09</span><b>Koszulki sportowe</b><small>Nadruk na koszulce piłkarskiej</small></a></li>
+        <li><a href="https://cafans.com/category-920-Accessories.html"><span class="num">10</span><b>Akcesoria</b><small>Długość paska i obwód bransoletki</small></a></li>
+      </ul>
+    </nav>
+
+    <section class="section" aria-labelledby="guides-title">
+      <div class="heading">
+        <p class="label">Przed zamówieniem</p>
+        <h2 id="guides-title">Cztery rzeczy do sprawdzenia</h2>
+      </div>
+      <div class="guides">
+        <article itemscope itemtype="https://schema.org/Article">
+          <meta itemprop="inLanguage" content="pl">
+          <h3 itemprop="headline">Jak sprawdzić linki OopBuy?</h3>
+          <p itemprop="articleBody">Na karcie produktu potwierdź nazwę modelu, kod wariantu i dostępność rozmiaru. Jeśli link otwiera inny kolor lub przekierowuje do ogólnej strony sprzedawcy, wyszukaj model po kodzie. Do porównania dwóch ofert zapisz wariant i datę sprawdzenia.</p>
+        </article>
+        <article itemscope itemtype="https://schema.org/Article">
+          <meta itemprop="inLanguage" content="pl">
+          <h3 itemprop="headline">Jak czytać tabelę rozmiarów OopBuy?</h3>
+          <p itemprop="articleBody">Porównaj wymiary w centymetrach z ubraniem, które dobrze leży. Zmierz szerokość pod pachami, długość pleców i nogawkę po wewnętrznym szwie. Przy butach porównaj długość stopy z tabelą konkretnego modelu i sprawdź, czy podana liczba oznacza długość stopy czy wkładki.</p>
+        </article>
+        <article itemscope itemtype="https://schema.org/Article">
+          <meta itemprop="inLanguage" content="pl">
+          <h3 itemprop="headline">Co pokazują zdjęcia QC?</h3>
+          <p itemprop="articleBody">Zdjęcia kontroli jakości z magazynu mogą pokazać stan egzemplarza przed wysyłką. Sprawdź symetrię szwów, metkę rozmiaru, zamek i spód podeszwy. Jeśli brakuje skali, poproś o ujęcie z miarką. Do oceny koloru przydaje się zdjęcie w neutralnym świetle.</p>
+        </article>
+        <article itemscope itemtype="https://schema.org/Article">
+          <meta itemprop="inLanguage" content="pl">
+          <h3 itemprop="headline">Jak oszacować koszt dostawy do Polski?</h3>
+          <p itemprop="articleBody">Porównaj cenę towaru, wysyłkę do magazynu, opłatę pośrednika i przewóz do Polski. Sprawdź, czy przewoźnik rozlicza wagę rzeczywistą czy gabarytową, które podatki i opłaty zawiera wycena oraz jaki kurs przeliczenia na PLN stosuje dostawca płatności.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="heading">
+        <h2 id="gallery-title">Detale w czterech odsłonach</h2>
+        <p>Fotografie referencyjne pokazują fasony i wykończenia. Dostępność danego modelu sprawdzisz osobno w katalogu.</p>
+      </div>
+      <div class="strip">
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/943C449A4462C595_E01-2?%24default_GH%24=&amp;crop=381%2C162%2C1243%2C1677&amp;extend=0%2C0%2C0%2C250&amp;wid=360&amp;fmt=webp&amp;qlt=68" width="360" height="559" loading="lazy" decoding="async" alt="Granatowa pikowana kurtka Dior Oblique z wysokim kołnierzem">
+          <figcaption>Dior / Pikowanie</figcaption>
+        </figure>
+        <figure>
+          <img src="https://jp.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-blast-cap--M5269L_PM2_Front%20view.png?hei=380&amp;wid=380&amp;fmt=jpeg&amp;qlt=75" width="380" height="380" loading="lazy" decoding="async" alt="Czarna czapka z daszkiem Louis Vuitton z tonalnym monogramem">
+          <figcaption>Louis Vuitton / Monogram</figcaption>
+        </figure>
+        <figure>
+          <img src="https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1781771405/414516_AP00T_1000_001_100_0000_Light-gg-marmont-belt.jpg" width="490" height="490" loading="lazy" decoding="async" alt="Czarny pasek Gucci GG Marmont ze złotą klamrą Double G">
+          <figcaption>Gucci / Klamra</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.hermes.com/is/image/hermesproduct/700001FO8Z_front_wm_101?wid=384&amp;hei=512&amp;fit=fit,1&amp;$product_default_bg$&amp;fmt=webp" width="384" height="512" loading="lazy" decoding="async" alt="Bransoletka Hermès Clic H z pomarańczową emalią i zapięciem w kształcie litery H">
+          <figcaption>Hermès / Emalia</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title" itemscope itemtype="https://schema.org/FAQPage">
+      <meta itemprop="inLanguage" content="pl">
+      <h2 id="faq-title" itemprop="name">Pytania o OopBuy spreadsheet</h2>
+      <details open itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Co zawiera lista typu OopBuy spreadsheet?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Taka lista grupuje odnośniki według rodzaju produktu. Zależnie od źródła wpis może zawierać wariant, cenę lub zdjęcia QC. Na tej stronie odnośniki prowadzą do kategorii CAFANS.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Co zrobić, gdy link jest nieaktualny?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Wyszukaj kod modelu lub pełną nazwę w odpowiedniej kategorii. W nowej ofercie sprawdź sprzedawcę, rozmiar i kolor przed dodaniem produktu do koszyka.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Czy zdjęcie QC potwierdza autentyczność?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Zdjęcie QC pomaga ocenić widoczne cechy i stan egzemplarza. Potwierdzenie autentyczności wymaga dodatkowych dowodów pochodzenia lub specjalistycznej weryfikacji.</p>
+        </div>
+      </details>
+      <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+        <summary itemprop="name">Kiedy można porównać pełny koszt zamówienia?</summary>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Gdy masz wycenę wybranej metody dostawy do Polski i wiesz, jakie opłaty obejmuje. Przy przesyłce zbiorczej koszt warto przeliczyć po ustaleniu masy i wymiarów paczki.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Niezależny przewodnik informacyjny. Zdjęcia marek służą jako ilustracje. Kategorie udostępnia <a href="https://www.cafans.com">CAFANS.COM</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
